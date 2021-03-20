@@ -31,7 +31,7 @@ This little `JS` mod provides your site with a tool to count cards in the trade 
 
 6. That should do it. If you have any problems, please send in an [issue](https://github.com/savwiley/tcgCardCounter/issues).
 
-[^TOP](https://github.com/savwiley/tcgCardCounter#tcgcardcounter)
+<sup>[^TOP](https://github.com/savwiley/tcgCardCounter#tcgcardcounter)</sup>
 
 ## Install in eTCG
 
@@ -52,4 +52,4 @@ This little `JS` mod provides your site with a tool to count cards in the trade 
 
 6. If something goes wrong, reupload the old `footer.php` you backed up a moment ago and make sure eTCG still works like it's supposed to before trying to fix the mod. If the problem persists, please send in an [issue](https://github.com/savwiley/tcgCardCounter/issues). 
 
-[^TOP](https://github.com/savwiley/tcgCardCounter#tcgcardcounter)
+<sup>[^TOP](https://github.com/savwiley/tcgCardCounter#tcgcardcounter)</sup>
