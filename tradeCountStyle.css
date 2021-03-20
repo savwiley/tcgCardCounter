@@ -1,0 +1,75 @@
+.cIOverlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cIOverlay span {
+    display: block;
+    color: #000;
+    text-align: justify;
+    width: 30%;
+    font-weight: bold;
+    cursor: default;
+}
+
+.cIOverlay textarea {
+    width: 30%;
+    padding: 2px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid #000;
+    outline: none;
+}
+
+.cIOverlay input {
+    margin: 5px 0;
+    width: 30%;
+    cursor: pointer;
+    background: #eee;
+    color: #000;
+    border: 1px solid #333;
+    font-size: 20px;
+    outline: none;
+}
+.cIOverlay input[value=X] {
+    font-size: 15px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    position: fixed;
+    right: 30%;
+    top: 30%;
+}
+.cIOverlay input:hover {
+    background: #888;
+    color: #fff;
+}
+
+.cIOverlay #countText {
+    text-align: center;
+    font-size: 25px;
+}
+
+.cardCountButton {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    background: #eee;
+    border: 5px outset #666;
+    outline: none;
+    float: right;
+}
+.cardCountButton:focus {
+    border: 5px inset #666;
+}
