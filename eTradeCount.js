@@ -1,7 +1,6 @@
 /* eTCG */
 
-//grab the body & sidebar
-const body = document.querySelector("body");
+//grab the sidebar
 const sidebar = document.querySelector("#sidebar");
 
 //grab list
@@ -63,5 +62,5 @@ const countText = document.createElement("span");
     countText.setAttribute("id", "countText");
     countText.style.textAlign = "center";
     countText.style.fontSize = "20px";
-    countText.textContent = `0 cards`;
+    countText.textContent = "0 cards";
     cardSideCounter.appendChild(countText);
