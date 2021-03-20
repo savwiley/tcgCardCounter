@@ -1,4 +1,4 @@
-/* DOMS */
+/* SITE */
 
 //grab the body
 const body = document.querySelector("body");
@@ -27,7 +27,8 @@ const cardBtn = document.createElement("input");
     cardBtn.setAttribute("type", "button");
     cardBtn.setAttribute("value", "Count!");
     cardBtn.addEventListener("click", () => {
-        countCommas(cardInput.value);
+        const val = cardInput.value;
+        countText.textContent = `${val.split(",").length} cards`;
     });
     cardInputOverlay.appendChild(cardBtn);
 
@@ -45,16 +46,3 @@ const closeBtn = document.createElement("input");
         cardInputOverlay.remove()
     });
     cardInputOverlay.appendChild(closeBtn);
-
-/* FUNCTIONS */
-
-//FUNC counts cards
-function countCommas(e) {
-    countText.textContent = `${e.split(",").length} cards`;
-}
-
-
-
-
-
-
