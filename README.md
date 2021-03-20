@@ -10,7 +10,8 @@ This little `JS` mod provides your site with a tool to count cards in the trade 
 
 ## Install in Trade Posts
 
-[//]: # (Images here)
+![On site button](https://cdn.discordapp.com/attachments/697494609038671982/822934193968250890/Untitled-1.png)
+![On site counter](https://cdn.discordapp.com/attachments/697494609038671982/822934194056724480/Untitled-2.png)
 
 1. Upload `tradeCount.js` to your site.
  
@@ -32,7 +33,8 @@ This little `JS` mod provides your site with a tool to count cards in the trade 
 
 ## Install in eTCG
 
-[//]: # (Images here)
+![eTCG button](https://cdn.discordapp.com/attachments/697494609038671982/822934179196174386/Untitled-3.png)
+![eTCG counter](https://cdn.discordapp.com/attachments/697494609038671982/822934187555684382/Untitled-4.png)
 
 1. Upload `eTradeCount.js` to your site.
 
