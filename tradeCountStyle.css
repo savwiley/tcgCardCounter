@@ -1,3 +1,6 @@
+/*-- CARD COUNT MOD --*/
+
+/* background overlay */
 .cIOverlay {
     position: fixed;
     top: 0;
@@ -13,6 +16,7 @@
     align-items: center;
 }
 
+/* instruction text */
 .cIOverlay span {
     display: block;
     color: #000;
@@ -22,6 +26,7 @@
     cursor: default;
 }
 
+/* textarea to input cards */
 .cIOverlay textarea {
     width: 30%;
     padding: 2px;
@@ -31,6 +36,7 @@
     outline: none;
 }
 
+/* button to count cards */
 .cIOverlay input {
     margin: 5px 0;
     width: 30%;
@@ -41,6 +47,7 @@
     font-size: 20px;
     outline: none;
 }
+/* close button */
 .cIOverlay input[value=X] {
     font-size: 15px;
     width: 28px;
@@ -50,16 +57,19 @@
     right: 30%;
     top: 30%;
 }
+/* hover effect over buttons */
 .cIOverlay input:hover {
     background: #888;
     color: #fff;
 }
 
+/* text displaying card amount */
 .cIOverlay #countText {
     text-align: center;
     font-size: 25px;
 }
 
+/* button added into your html */
 .cardCountButton {
     cursor: pointer;
     font-size: 15px;
@@ -70,6 +80,7 @@
     outline: none;
     float: right;
 }
+/* html button after it's been clicked/while in use */
 .cardCountButton:focus {
     border: 5px inset #666;
 }
