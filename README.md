@@ -40,7 +40,7 @@ This little `JS` mod provides your site with a tool to count cards in the trade 
 
 2. In your site's eTCG folder, download `footer.php`.
 
-3. Make quadruple sure you back this file up to it's current version BEFORE we start messing with it.
+3. Make quadruple sure you back this file up to its current version BEFORE we start messing with it.
 
 4. Scroll down to the bottom and add this before the last `</body>` tag with a link to the script you just uploaded:
 
