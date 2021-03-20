@@ -1,6 +1,6 @@
 # tcgCardCounter
 
-This little `JS` mod provides your site with a tool to count cards in the trade posts and in eTCG. Customization (should be) easy. If you have any problems, please send in an [issue](https://github.com/savwiley/tcgCardCounter/issues) or feel free to contact me on Discord.
+This little `JS` mod provides your site with a tool to count cards in the trade posts and in eTCG. Installation and customization is (or should be) very easy. If you have any problems, please send in an [issue](https://github.com/savwiley/tcgCardCounter/issues) or feel free to contact me on Discord.
 
 📥 [Download Files](https://github.com/savwiley/tcgCardCounter/archive/refs/heads/main.zip)
 
@@ -46,4 +46,4 @@ This little `JS` mod provides your site with a tool to count cards in the trade 
 
 5. Reupload your new `footer.php` file to the eTCG folder on your site. 
 
-6. If something goes wrong, reupload the old `footer.php` you backed up a moment ago and make sure eTCG still works like it's supposed to before trying to fix it. If the problem persists, please send in an [issue](https://github.com/savwiley/tcgCardCounter/issues). 
+6. If something goes wrong, reupload the old `footer.php` you backed up a moment ago and make sure eTCG still works like it's supposed to before trying to fix the mod. If the problem persists, please send in an [issue](https://github.com/savwiley/tcgCardCounter/issues). 
