@@ -1,4 +1,5 @@
 # tcgCardCounter
+<!--- ![GitHub all releases](https://img.shields.io/github/downloads/savwiley/tcgCardCounter/total?color=green&style=flat-square) --->
 
 This little `JS` mod provides your site with a tool to count cards in the trade posts and in eTCG. Installation and customization is (or should be) very easy. If you have any problems, please send in an [issue](https://github.com/savwiley/tcgCardCounter/issues) or feel free to contact me on Discord.
 
