@@ -28,7 +28,7 @@
 
 /* textarea to input cards */
 .cIOverlay textarea {
-    width: 30%;
+    width: 30vw;
     padding: 2px;
     height: 100px;
     background: #fff;
@@ -39,7 +39,7 @@
 /* button to count cards */
 .cIOverlay input {
     margin: 5px 0;
-    width: 30%;
+    width: 30.5vw;
     cursor: pointer;
     background: #eee;
     color: #000;
