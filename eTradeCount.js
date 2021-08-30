@@ -7,23 +7,19 @@ const sidebar = document.querySelector("#sidebar");
 const listGroup = document.querySelector(".list-group");
 
 //add button to sidebar
-const iconBtn = document.createElement("i");
-    iconBtn.setAttribute("class", "fa fa-terminal");
-    iconBtn.textContent = "\r\n Card Counter";
-
-let clickSwitch = "off";
+let clickSwitch = false;
 
 const eModBtn = document.createElement("a");
     eModBtn.setAttribute("class", "list-group-item");
     eModBtn.style.cursor = "pointer";
-        eModBtn.appendChild(iconBtn);
+    eModBtn.innerHTML = "<i class='fa fa-terminal'></i>\r\n Card Counter";
     eModBtn.addEventListener("click", () => {
-        if (clickSwitch === "off") {
-            sidebar.appendChild(cardSideCounter);
-            clickSwitch = "on";
-        } else if (clickSwitch === "on") {
+        if (clickSwitch) {
             cardSideCounter.remove();
-            clickSwitch = "off";
+            clickSwitch = false;
+        } else {
+            sidebar.appendChild(cardSideCounter);
+            clickSwitch = true;
         }
     });
     listGroup.appendChild(eModBtn);
